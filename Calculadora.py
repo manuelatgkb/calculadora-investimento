@@ -12,8 +12,16 @@ media_visu_por_compart= 40
 
 
 #invest_pub = 3.33 #coloque aqui o valor do seu investimemto inicial p 100 pessoas
-invest_pub = input("Coloque aqui o valor do seu investimento inicial em reais: ")
-invest_pub = float(invest_pub)
+while True:
+    try:
+        invest_pub = float(input("Coloque aqui o valor do seu investimento inicial em reais: "))
+
+    except ValueError:
+        print("Somente valores numéricos são permitidos.")
+        continue
+    else:
+        break
+
 
 qd_visualizacoes_inic = invest_pub * media_visu
 qd_cliques= qd_visualizacoes_inic * media_clq
