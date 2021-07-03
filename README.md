@@ -1,7 +1,7 @@
 # calculadora-investimento
 Esta calculadora foi criada para responder a primeira parte do desafio de programação. Ela calcula o alcance de um anúncio postado na internet, gerando um relatório virtual que, tomando em consideração o valor investido e quantidade de dias que o anúncio fica em linha retorna: a quantidade máxima de visualizações, a quantidade máxima de cliques e a quantidade máxima de compartilhamentos.
 
-A calculadora e o cadastro necessitam de uma versão no mínimo 3.8.6
+A calculadora e o cadastro necessitam de uma versão de python de no mínimo 3.8.6
 
 A calculadora foi adicionada ao sistema de cadastro de pessoas, pedido na segunda parte do desafio. 
 
